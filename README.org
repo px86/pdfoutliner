@@ -1,0 +1,17 @@
+#+TITLE: pdfoutliner
+
+Set outine of a pdf file using PyMuPDF.
+
+* Installation
+
+#+begin_src python
+  pip install -r requirements.txt
+#+end_src
+
+* Usage
+
+#+begin_src bash
+  python pdfoutliner --pdf <path to pdf file> \
+         --toc <path to txt file having the outine> \
+         --output <path to output file>
+#+end_src
