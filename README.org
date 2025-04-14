@@ -11,7 +11,7 @@ Set outine of a pdf file using PyMuPDF.
 * Usage
 
 #+begin_src bash
-  python pdfoutliner --pdf <path to pdf file> \
+  python pdfoutliner.py --pdf <path to pdf file> \
          --toc <path to txt file having the outine> \
          --output <path to output file>
 #+end_src
